@@ -11,6 +11,7 @@ type (
         Eror struct{}
         Misc struct{}
 )
+
 var (
         wr = Writer{} //fmt
         er = Eror{}   //error
